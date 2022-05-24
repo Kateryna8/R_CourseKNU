@@ -21,7 +21,7 @@ complete = function(directory, id = 1:332) {
     return(data.frame(id, nobs))
 }
 
-#Прописуємо умови кореляції за допомогою функції cor(), threshold за замовчуванням дорівнює 0. Функція повертає вектор значень кореляцій.
+#Прописуємо умови кореляції за допомогою функції cor(). Функція повертає вектор значень кореляцій.
 corr = function(directory, threshold = 0) {
     corelations = numeric()
     for (i in 1:332) {
