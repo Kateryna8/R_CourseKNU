@@ -43,9 +43,11 @@ ___
 > complete("specdata", 1)
   id nobs
 1  1  117
+
 > complete("specdata", 300)
    id nobs
 1 300  927
+
 > complete("specdata", c(2, 4, 8, 10, 12))
   id nobs
 1  2 1041
@@ -53,11 +55,13 @@ ___
 3  8  192
 4 10  148
 5 12   96
+
 > complete("specdata", c(20, 156, 208))
    id nobs
 1  20  124
 2 156  298
 3 208  121
+
 > complete("specdata", 50:60)
    id nobs
 1  50  459
@@ -71,6 +75,7 @@ ___
 9  58  391
 10 59  445
 11 60  448
+
 > complete("specdata", 250:260)
     id nobs
 1  250  180
